@@ -1,58 +1,25 @@
 {
-  "name": "saz-resolv_conf",
-  "version": "4.1.0",
-  "author": "saz",
+  "name": "cmc-resolv_conf",
+  "version": "4.1.1",
+  "author": "Conclusion Mission Critical",
   "summary": "Manage resolv.conf via Puppet",
-  "description": "Manage resolv.conf via Puppet",
   "license": "Apache-2.0",
-  "source": "https://github.com/saz/puppet-resolv_conf.git",
-  "project_page": "https://github.com/saz/puppet-resolv_conf",
-  "issues_url": "https://github.com/saz/puppet-resolv_conf/issues",
+  "source": "https://github.com/ConclusionMC/puppet-resolv_conf",
+  "project_page": "https://github.com/ConclusionMC/puppet-resolv_conf",
+  "issues_url": "https://github.com/ConclusionMC/puppet-resolv_conf/issues",
   "operatingsystem_support": [
     {
-      "operatingsystem": "RedHat"
-    },
-    {
-      "operatingsystem": "CentOS"
-    },
-    {
-      "operatingsystem": "OracleLinux"
-    },
-    {
-      "operatingsystem": "Scientific"
-    },
-    {
-      "operatingsystem": "Suse"
-    },
-    {
-      "operatingsystem": "Debian"
-    },
-    {
-      "operatingsystem": "Ubuntu"
-    },
-    {
-      "operatingsystem": "FreeBSD"
-    },
-    {
-      "operatingsystem": "OpenBSD"
-    },
-    {
-      "operatingsystem": "Gentoo"
-    },
-    {
-      "operatingsystem": "ArchLinux"
-    },
-    {
-      "operatingsystem": "AIX"
-    },
-    {
-      "operatingsystem": "Solaris"
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
     }
   ],
   "requirements": [
-    { "name": "puppet", "version_requirement": ">=4.9.3 <7.0.0" }
+    {"name":"puppet","version_requirement":">=4.9.3 <7.0.0"}
   ],
   "dependencies": [
-    { "name": "puppetlabs/stdlib", "version_requirement": ">=2.6.0 < 7.0.0" }
+    {"name": "puppetlabs/stdlib","version_requirement":">=2.6.0 <7.0.0"}
   ]
 }
