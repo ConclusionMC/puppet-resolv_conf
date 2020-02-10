@@ -35,7 +35,7 @@ end
 group :development do
   gem 'git'
 
-  gem 'puppet-blacksmith'
+  gem 'puppet-blacksmith', '4.1.2'
   gem 'puppet-strings'
 
   gem 'redcarpet'
