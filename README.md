@@ -1,4 +1,4 @@
-# puppet-resolv_conf [![Build Status](https://secure.travis-ci.org/saz/puppet-resolv_conf.png)](http://travis-ci.org/saz/puppet-resolv_conf)
+# puppet-resolv_conf (Forked from https://github.com/saz/puppet-resolv_conf)
 
 Manage resolv.conf via Puppet
 
