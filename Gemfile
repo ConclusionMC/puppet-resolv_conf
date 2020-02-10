@@ -28,7 +28,7 @@ group :test do
   gem 'rubocop', '0.54.0'
 
   gem 'semantic_puppet'
-  gem 'simplecov'
+  gem 'simplecov', '0.17.1'
   gem 'simplecov-console'
 end
 
